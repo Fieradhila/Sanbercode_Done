@@ -1,0 +1,49 @@
+body{
+	background-image: url("../img/pattern.jpg");
+	font-family: 'Slabo 27px', 'serif';
+}
+header{
+	background-color: white;
+	height: 50px; /*Tinggi kotak putih*/
+	top: 0px; /*Agar kotak menempel ke atas*/
+	right: 0px;
+	left: 0px;
+	position: fixed; /*stay diatas dan agar fungsi top, right, left berfungsi*/
+	display: flex; /*memberikan elemen di dalam header agar lebih flexible */
+	justify-content: space-between; /*agar komponen rata kekiri dan kekanan*/
+}
+nav li{
+	list-style: none; /*menghilangkan titik bulet list*/
+	display: inline-block; /*tulisan rata sejajar tidak kebawah*/
+	margin-left: 10px;
+	font-size: 18px;
+	color: #07336a;
+	margin-right: 15px;
+	font-weight: bold;
+}
+a{	
+	text-decoration: none; /*menghilangkan _ pada url*/
+}
+section{
+	margin-left: 200px; /*memberi jarak kiri*/
+	margin-right: 200px;
+	background-color: white;
+	padding: 20px;
+	margin-top: 60px; /*memberi jarak atau space agar tidak menumpuk dengan header*/
+	margin-bottom: 10px;
+}
+h1{
+	text-align: center;
+}
+article{
+	border-bottom: 2px solid grey; /*memberi garis atau sekat antar atikel ketebalan solid */
+}
+footer{
+	background-color: black;
+	color: white;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
