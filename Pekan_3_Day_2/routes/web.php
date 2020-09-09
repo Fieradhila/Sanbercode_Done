@@ -11,10 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/', 'HomeController@home');
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/home', 'HomeController@home');
 Route::get('/register','AuthController@register');
 Route::post('/masuk','AuthController@masuk');
-
